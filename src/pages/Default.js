@@ -1,8 +1,9 @@
 import React, { Component } from "react";
+import Header from "../components/Header";
 
 class Default extends Component {
   render() {
-    return <h4>Hello from ErrorPage</h4>;
+    return <Header />;
   }
 }
 export default Default;
