@@ -1,8 +1,15 @@
 import React, { Component } from "react";
+import RecipeList from "../components/RecipeList";
+import Search from "../components/Search";
 
 class Recipe extends Component {
   render() {
-    return <h4>Hello from Recipe Page</h4>;
+    return (
+      <>
+        <Search />
+        <RecipeList />
+      </>
+    );
   }
 }
 export default Recipe;
